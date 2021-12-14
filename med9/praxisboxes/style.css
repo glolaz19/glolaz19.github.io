@@ -1,0 +1,55 @@
+body{
+	background-color:darkblue;
+}
+
+h1{
+	background-color:lightpink;
+	color:purple;
+	text-align:center;
+	padding:40px;
+
+}
+
+h2{
+	
+	color:white;
+	font-size:18px;
+	text-align:center;
+	
+
+}
+
+div{
+	background-color:yellow;
+	width:1800px;
+	color:red;
+	padding:30px;
+	border:20px solid orange;
+}
+
+ul{
+	background-color:lightblue;
+	border:20px dashed blue;
+	padding:30px
+	width:1800px;
+
+}
+
+li{
+	background-color:darkblue;
+	color:white;
+	padding:5px;
+	margin:20px;
+
+
+}
+
+p{
+	background-color:lightgreen;
+	font-size:30px;
+	border:15px dotted green;
+	color:white;
+	padding:30px;
+	width:1800px;
+	
+}

@@ -1,0 +1,18 @@
+img{
+	width:200px;
+	border:20px dashed lightpink;
+
+}
+.left{
+	float:left;
+	border:20px dashed blue;
+	margin:30px;
+	width:50px;
+}
+
+.right{
+	float:right;
+	border:20px dashed blue;
+	margin:30px;
+	width:50px;
+}
