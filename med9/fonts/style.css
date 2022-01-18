@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Cookie&family=Pacifico&display=swap');
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 30px;
+font-family: Cookie;
+letter-spacing: 5px;
+}
+
+	p{
+		margin: 70px;
+		text-align: justify;
+		font-family: Arvo ;
+		column-count: 3;
+		line-height: 1,5;
+	}
+
+	.signature{
+		margin: 20px;
+		font-size: 50px;
+		font-family:Pacifico;
+		column-count: 1;
+	}
+
+	body{
+		color:  white ; 
+		background: rgb(107,19,121);
+background: linear-gradient(90deg, rgba(107,19,121,1) 5%, rgba(86,49,155,1) 13%, rgba(86,49,155,1) 21%, rgba(85,50,156,1) 35%, rgba(16,222,195,1) 49%, rgba(71,214,198,1) 61%, rgba(125,187,240,1) 81%, rgba(100,157,221,1) 92%);
+	}
