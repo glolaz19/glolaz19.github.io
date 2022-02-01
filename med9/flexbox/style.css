@@ -1,0 +1,23 @@
+
+
+ div{
+ 	width:300px;
+ height:100px;
+display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:lightgreen;
+}
+
+p{
+	width: 1000px;
+	height: 1000px;
+	display: flex ;
+	justify-content:space-around ;
+    background-color: lightskyblue;
+	align-items: flex-end;
+}
+
+img{
+	width: 300px;
+}
