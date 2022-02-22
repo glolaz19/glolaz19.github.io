@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+
+
+
+header {
+	height: 400px;
+	display: flex;
+	justify-content:center;
+	align-ites: center;
+	background-image: url("electroncs1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+header h1 {
+padding: 30px;
+background-color: rgb(255,255,255,0.6);
+border-radius: 20px;
+font-family: Satisfy;
+
+}
+
+main{
+
+	padding: 100px;
+background: linear-gradient(90deg, rgba(190,113,219,1) 70%, rgba(100,157,221,1) 92%);
+}
+main p {
+	column-count: 2;
+	color: white;
+	font-family: "Pacifico";
+}
+
+#schaltung{
+	padding: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: darkblue;
+
+	
+
+
+}
+
+#schaltung ul li{
+	padding: 20px;
+	margin: 30px;
+	background-color: lightblue;
+
+}
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background-image: url("elecricity.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+footer p {
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 20px;
+}
