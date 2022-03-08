@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body{
 	margin: 0;
 }
@@ -11,6 +13,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 30px;
+font-family: Pacifico;
 }
 
 nav img{
