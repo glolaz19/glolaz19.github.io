@@ -67,8 +67,6 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* How to use a backgrond image*/
-	background-image: url("header-background.jpg");
      background-size: cover;
      background-position: center;
      height: 800px;
@@ -103,3 +101,57 @@ font-family: Pacifico;
  section{
  	padding: 50px;
  }
+ /*main*/
+main{
+	padding:100px ;
+}
+
+
+	
+
+
+
+	/**************************************************Page Styles**********************************************/
+
+
+
+	/*Home Page*/
+
+#home header{
+		background-image: url("header-background.jpg");
+
+	}
+	
+
+	/*About Page*/
+
+
+#about header {
+	background-image: url("header-background-about.jpg");}
+
+    main{
+     	background-color: lightblue;
+    }
+    
+     
+}
+
+
+
+/* Cities Page*/
+
+#cities header {
+	background-image: url("cities.jpg");
+
+	background-color: gray;
+}
+	
+	main{
+		background-color: lightskyblue;}
+/* Ozean Page*/
+
+#ozean header {
+	background-color: lightgreen;
+	background-image: url("ozean.jpg");
+
+}		
