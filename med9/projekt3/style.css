@@ -1,0 +1,157 @@
+
+/*
+* Title: A website about Summer  ;
+* Author: Gloria Lazri;
+* Date: 10.05.2022;
+*/
+
+/********************* General Styles *********************/
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+	margin: 0;   
+}
+
+/* Navigation*/ 
+
+nav{
+
+background-color: #42f5ef;
+display: flex;
+justify-content: space-between; /*To make space between logo and list*/
+align-items: center;
+padding: 30px;
+font-family: Pacifico;
+}
+
+nav img{
+	height: 150px;
+	width: 150px;
+	border-radius: 10%;
+}
+
+nav ul{
+     display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type:none ;
+}
+
+
+nav ul li a{
+  
+ margin: 30px;
+padding: 20px;
+text-decoration: none; /* Removes the underline decoration of a link*/
+color: white;
+background-color:blue;
+border-radius: 10px;
+text-transform: uppercase; /* Shows the letters with all percase*/
+}
+
+nav ul li a:hover{
+	/* Hover is sed to make a nice effect if we put the mouse over the link*/
+
+	background-color:white;
+	color:blue ;
+}
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #dea5dd #92e3fa;
+
+     background-size: cover;
+     background-position: center;
+     height: 800px;
+ }
+
+ header h1{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+ 	background: rgb(248,254,255);
+
+ 	padding: 20px;
+
+
+
+ }
+/* footer*/
+ footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 400px;
+background-color: #24ffde;
+font-family: Pacifico;
+
+ }
+
+ footer p{
+ 	font-size: 40px;
+ 	color: white;
+ }
+
+ /* section*/
+ section{
+ 	padding: 50px;
+ }
+ /*main*/
+main{
+	padding:100px ;
+}
+
+
+	
+
+
+
+	/**************************************************Page Styles**********************************************/
+
+
+
+	/*Home Page*/
+
+#home header{
+		
+		background-color:#ff00b5; ;
+
+	}
+	
+
+	/*About Page*/
+
+
+#about header {
+	
+
+    main{
+     	background-color: lightblue;
+    }
+    
+     
+}
+
+
+
+/* Products Page*/
+
+#products header {
+	
+	background-color: background: #ff00b5;
+
+	  main{
+     	background-color: lightblue;
+    }
+    
+}
+	
+	
