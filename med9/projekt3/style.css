@@ -12,9 +12,10 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
 body{
-	margin: 0;   
+	margin: 0;
+	position: relative;   
 }
 
 /* Navigation*/ 
@@ -27,6 +28,8 @@ justify-content: space-between; /*To make space between logo and list*/
 align-items: center;
 padding: 30px;
 font-family: Pacifico;
+position: fixed;
+width: 1500px;
 }
 
 nav img{
@@ -59,11 +62,12 @@ nav ul li a:hover{
 
 	background-color:white;
 	color:blue ;
+
 }
 
 /* Header */
 header{
-	height: 400px;
+	height: 200px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -71,19 +75,14 @@ header{
 
      background-size: cover;
      background-position: center;
-     height: 800px;
+     height: 700px;
+     
  }
 
- header h1{
- 	text-transform: uppercase;
- 	font-size: 60px;
- 	background: rgb(248,254,255);
-
- 	padding: 20px;
 
 
 
- }
+ 
 /* footer*/
  footer{
 display: flex;
@@ -103,12 +102,18 @@ font-family: Pacifico;
  /* section*/
  section{
  	padding: 50px;
+ 	font-family: Lobster;
+	color: white;
  }
  /*main*/
-main{
-	padding:100px ;
-}
 
+main {
+	padding:100px ;
+	font-family: Lobster;
+	color: white;
+
+	
+}
 
 	
 
@@ -122,23 +127,44 @@ main{
 
 #home header{
 		
-		background-color:#ff00b5; ;
-
+	background: rgb(16,255,136);
+background: linear-gradient(90deg, rgba(16,255,136,1) 12%, rgba(142,47,192,1) 49%, rgba(144,47,193,1) 50%, rgba(169,49,198,1) 60%, rgba(199,79,212,1) 71%, rgba(227,40,186,1) 81%, rgba(227,40,186,1) 92%, rgba(255,0,160,1) 100%);
 	}
 	
+	 .b{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+ 	color: lightpink;
+ 	padding: 20px;
 
+}
+.e { background-color: lightpink; }
+
+
+
+	
 	/*About Page*/
 
 
 #about header {
 	
-
-    main{
-     	background-color: lightblue;
-    }
-    
-     
+background: rgb(201,39,72);
+background: linear-gradient(90deg, rgba(201,39,72,1) 0%, rgba(205,126,66,1) 16%, rgba(249,255,216,1) 39%, rgba(207,231,156,1) 59%, rgba(16,255,136,1) 76%, rgba(39,201,128,1) 96%);
+   
 }
+
+ .a{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+    padding: 20px;
+    color: yellow
+
+
+}
+.d{
+	background-color: yellow;
+}
+
 
 
 
@@ -146,12 +172,18 @@ main{
 
 #products header {
 	
-	background-color: background: #ff00b5;
-
-	  main{
-     	background-color: lightblue;
-    }
-    
+background: rgb(255,216,248);
+background: linear-gradient(90deg, rgba(255,216,248,1) 2%, rgba(238,167,232,1) 13%, rgba(255,52,230,1) 24%, rgba(196,75,229,1) 39%, rgba(200,81,229,1) 49%, rgba(170,184,241,1) 66%, rgba(167,211,238,1) 77%, rgba(164,235,236,1) 84%, rgba(111,214,226,1) 99%);
+	 
 }
-	
-	
+
+.c{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+    padding: 20px;
+    color: purple;
+}
+
+.f {
+	background-color:pink;
+}
