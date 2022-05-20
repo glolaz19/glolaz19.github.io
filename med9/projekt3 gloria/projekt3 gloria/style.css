@@ -1,0 +1,333 @@
+/*
+* Title: A website about Summer  ;
+* Author: Gloria Lazri;
+* Date: 10.05.2022;
+*/
+
+/********************* General Styles *********************/
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+body{
+	margin: 0;
+	position: relative;   
+}
+
+/* Navigation*/ 
+
+nav{
+
+background-color: #42f5ef;
+display: flex;
+justify-content: space-between; /*To make space between logo and list*/
+align-items: center;
+padding: 30px;
+font-family: Pacifico;
+position: fixed;
+width: 1500px;
+}
+
+nav img{
+	height: 150px;
+	width: 150px;
+	border-radius: 10%;
+}
+
+nav ul{
+     display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type:none ;
+}
+
+
+nav ul li a{
+  
+ margin: 30px;
+padding: 20px;
+text-decoration: none; /* Removes the underline decoration of a link*/
+color: white;
+background-color:blue;
+border-radius: 10px;
+text-transform: uppercase; /* Shows the letters with all percase*/
+
+}
+
+nav ul li a:hover{
+	/* Hover is sed to make a nice effect if we put the mouse over the link*/
+
+	background-color:white;
+	color:blue ;
+	
+
+}
+
+/* Header */
+header{
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #dea5dd #92e3fa;
+
+     background-size: cover;
+     background-position: center;
+     height: 700px;
+     
+ }
+
+
+
+
+ 
+/* footer*/
+ footer{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 400px;
+background-color: #24ffde;
+font-family: Pacifico;
+
+ }
+
+ footer p{
+ 	font-size: 40px;
+ 	color: white;
+ }
+
+ /* section*/
+ section{
+ 	padding: 50px;
+ 	font-family: Lobster;
+	color: white;
+ }
+ /*main*/
+
+main {
+	padding:100px ;
+	font-family: Lobster;
+	color: white;
+
+	
+}
+
+	
+
+
+
+	/**************************************************Page Styles**********************************************/
+
+
+
+	/*Home Page*/
+
+#home header{
+		
+	background: rgb(16,255,136);
+background: linear-gradient(90deg, rgba(16,255,136,1) 12%, rgba(142,47,192,1) 49%, rgba(144,47,193,1) 50%, rgba(169,49,198,1) 60%, rgba(199,79,212,1) 71%, rgba(227,40,186,1) 81%, rgba(227,40,186,1) 92%, rgba(255,0,160,1) 100%);
+	}
+	
+	 .b{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+ 	color: lightpink;
+ 	padding: 20px;
+
+}
+.e { background-color: lightpink; }
+
+
+
+	
+	/*About Page*/
+
+
+#about header {
+	
+background: rgb(201,39,72);
+background: linear-gradient(90deg, rgba(201,39,72,1) 0%, rgba(205,126,66,1) 16%, rgba(249,255,216,1) 39%, rgba(207,231,156,1) 59%, rgba(16,255,136,1) 76%, rgba(39,201,128,1) 96%);
+   
+}
+
+ .a{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+    padding: 20px;
+    color: yellow
+
+
+}
+.d{
+	background-color: yellow;
+	color: black;
+}
+
+
+
+
+/* Products Page*/
+
+#products header {
+	
+background-image:url("clothes.jpg" );
+background-position: center;
+background-size: cover;
+	 
+}
+
+.c{
+ 	text-transform: uppercase;
+ 	font-size: 60px;
+    padding: 20px;
+    color: purple;
+}
+
+.f {
+	background-color:pink;
+}
+
+section{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: lightpink;
+}
+/* Article*/
+
+article{
+	background-color: lightpink;
+}
+article .text{
+	width:280px ;
+	height: 150px;
+	background-color:lightskyblue;
+	color: black;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size:19px;
+	
+}
+
+  article .text .mini-header{
+  	font-size: 14px;
+  	
+  	text-transform: uppercase;
+  	font-family: "Lobster";
+  	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color:lightskyblue;
+	color: black;
+	font-size:19px;
+  }
+
+
+ article .text .mini-footer{
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	font-size:19px;
+ 	width:100% ;
+ 	column-gap: 10px;
+     font-family: "Lobster";
+ 	background-color:lightskyblue;
+	color: black;
+	font-size:19px;
+ }
+
+article .text .mini-header span{
+	margin-right: 10px;
+}
+
+article .top{
+	width: 280px;
+	height: 180px;
+	background-image: url("top.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size:19px;
+}
+
+article .shorts{
+	width: 280px;
+	height: 180px;
+	background-image: url("shorts.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	font-size:19px;
+}
+
+	article .dress{
+	width: 280px;
+	height: 180px;
+	background-image: url("dress.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+justify-content: space-between;
+	align-items: center;
+font-size:19px;
+}
+
+article .pants{
+	width: 280px;
+	height: 600px;
+	background-image: url("pants.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size:19px;
+	
+}
+
+	article .shoes{
+	width: 280px;
+	height: 180px;
+	background-image: url("shoes.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size:19px;
+}
+
+article .flip-flops{
+	width: 280px;
+	height: 180px;
+	background-image: url("flip-flops.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+	font-size:19px;
+}
