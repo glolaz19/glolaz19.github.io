@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title></title>
+
+<style type="text/css">
+	.container{
+		margin: 100px;
+	}
+
+	.container:hover .cicle1, .container:hover .cicle2, .container:hover .cicle3, .container:hover .cicle4, .container:hover .cicle5{
+		transform: translateX(200px);
+	}
+	
+.cicle1, .cicle2, .cicle3, .cicle4, .cicle5{
+	margin: 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.cicle1{
+	background-color: blue;
+
+	/*linear:  gleichmaessige Bewengung*/
+	
+	transition: 2s linear;
+
+}
+.cicle2{
+	background-color: lightpink;
+	transition: 2s ease-in;
+}
+.cicle3{
+	background-color: purple;
+transition: 2s ease-out;
+
+}
+
+.cicle4{
+	background-color:lightblue;
+
+	transition: 2s ease-in-out;
+
+}
+.cicle5{
+
+	background-color: lightgreen;
+	transition: 2s ease;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+	<h1>Transformation</h>
+	<p>The translate()CSS function repositions an element in the horizontal and/or vertical directions. </p>
+
+	<div class="container">
+		<div class="cicle1"></div>
+						<div class="cicle2"></div>
+<div class="cicle3"></div>
+<div class="cicle4"></div>
+<div class="cicle5"></div>
+
+	</div>
+
+</body>
