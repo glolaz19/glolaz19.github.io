@@ -1,0 +1,40 @@
+body{
+   margin: 0;
+  background-color: darkgrey;
+  
+}
+nav img {
+	height: 160px;
+	width: 180px;
+	}
+
+nav ul {
+	font-family: calibri sans-serif;
+	background-color: lightgrey;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	color: white;
+}
+
+
+nav{
+   display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: lightgrey;
+	
+}
+nav ul li a{
+ont-family: calibri sans-serif;
+	background-color: lightcoral;
+	text-transform: uppercase;
+	margin: 15px;
+	color: white;
+	height: 160px;
+	padding: 20px;
+
+}
+
+
+
