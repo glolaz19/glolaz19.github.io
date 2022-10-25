@@ -14,7 +14,9 @@ bBox-sizing:  border-box.. alle Größenangaben umfassen das gesamte Element (in
 header, nav, article, aside{
 	width: 100%;
 }
-
+li{
+	display: block;
+}
 
 header{
 	background-color: lightgrey;
@@ -36,11 +38,33 @@ aside{
 	padding: 25px;
 	
 }
+/* Design für das Tablet*/
+@media(min-width:  600px){
 
+li{
+	display: inline;
+
+}
+aside{
+	width: 40%;
+	float: left;
+}
+
+article{
+	
+	width: 60%;
+	float: left;
+}
+
+
+
+}
 /* Design für das Desktop*/
 @media(min-width:  768px){
 
-
+li{
+	display: block;
+}
 nav, aside{
 	
 	width: 25%;
